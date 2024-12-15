@@ -2,25 +2,17 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add database context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Add services
 builder.Services.AddControllers();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IRecommendationService, RecommendationService>();
-
-// Add Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "VR Shop API", Version = "v1" });
 });
-
-// Add CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
@@ -33,8 +25,6 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-
-// Configure middleware
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {

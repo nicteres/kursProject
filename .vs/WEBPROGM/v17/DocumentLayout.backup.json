@@ -61,8 +61,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -134,9 +142,9 @@
               "Title": "Servises.cs",
               "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Servises.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Models\\Servises.cs",
-              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Servises.cs*",
-              "RelativeToolTip": "WEBPROGM\\Models\\Servises.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Servises.cs",
+              "RelativeToolTip": "WEBPROGM\\Models\\Servises.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T16:55:35.366Z",
               "EditorCaption": ""
@@ -224,14 +232,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-11T17:38:26.006Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

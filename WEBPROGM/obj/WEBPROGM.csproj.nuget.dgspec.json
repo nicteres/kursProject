@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj": {}
+    "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\WEBPROGM.csproj": {}
   },
   "projects": {
-    "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj": {
+    "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\WEBPROGM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+        "projectUniqueName": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\WEBPROGM.csproj",
         "projectName": "WEBPROGM",
-        "projectPath": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+        "projectPath": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\WEBPROGM.csproj",
         "packagesPath": "C:\\Users\\Компьютер\\.nuget\\packages\\",
-        "outputPath": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\obj\\",
+        "outputPath": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
