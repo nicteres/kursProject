@@ -1,0 +1,350 @@
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\appsettings.Development.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\appsettings.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.runtime.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.endpoints.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.exe
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.deps.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.runtimeconfig.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\WEBPROGM.pdb
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Npgsql.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.AssemblyReference.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.GeneratedMSBuildEditorConfig.editorconfig
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfoInputs.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfo.cs
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.CoreCompileInputs.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cs
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cs
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\scopedcss\bundle\WEBPROGM.styles.css
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\scopedcss\projectbundle\WEBPROGM.bundle.scp.css
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\n2zqobdxrw-c2tiyv64ts.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\0jg261f082-61n19gt1b8.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\idb885rpqs-6b9nfc4n3r.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\jj7evi18i7-agp80tu62r.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\84xt7847p5-st1cbwfwo5.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\detr0gmeq5-unj9p35syc.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\7mcas7qx6m-5vj65cig9w.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\q0r15q3mjf-q2ku51ktnl.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\0bwawq8czm-2q4vfeazbq.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\b6q537lxz1-n1oizzvkh6.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\5p4jdgqduh-o371a8zbv2.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\a9zmallybv-7na4sro3qu.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\qd1lx3iufb-jeal3x0ldm.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\opiq8q0sol-f8imaxxbri.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\oyerhxagiq-okkk44j0xs.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\du1fl6p20n-0wve5yxp74.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\b74kq17kq5-cwzlr5n8x4.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\f3pznbf9ph-npxfuf8dg6.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\c87esitose-wmug9u23qg.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\by4f3o5p0d-tey0rigmnh.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\6ph5nxsqk8-j75batdsum.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\7cxpiyhddp-16095smhkz.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\14r0zuj2fh-vy0bq9ydhf.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\u8nd7ts68v-b4skse8du6.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\xqy7tnt2cp-ab1c3rmv7g.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\sl6v8syrkw-u3xrusw2ol.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\ch4m1frq4d-56d2bn4wt9.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\ntw0i0cqeo-mpyigms19s.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\jszj62abru-73kdqttayv.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\e9ctezs4bd-bpk8xqwxhs.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\rh8tw3jknv-8inm30yfxf.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\b8kj02nfag-ve6x09088i.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\dsy8azkxq8-4gxs3k148c.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\nd7xws5o9l-9b9oa1qrmt.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\pyuje9ohcw-fctod5rc9n.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\277s73ytjf-l2av4jpuoj.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\xw11k1lmad-kbynt5jhd9.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\0y2opu0lo7-25iw1kog22.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\mwbbqxoi5o-c2nslu3uf3.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\i20le35orj-m39kt2b5c9.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\ub3r352579-2lgwfvgpvi.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\yd0aql6weu-um2aeqy4ik.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\c79cv20c70-wsezl0heh6.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\edt4oeoj4c-o4kw7cc6tf.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\hm91yfbw5p-6ukhryfubh.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\gn7y39u0lp-zwph15dxgs.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\lmhy6i24n3-u33ctipx7g.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\842e1uaki3-47otxtyo56.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\6cy28vj1f3-4v8eqarkd7.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\fy5bdrqmlv-356vix0kms.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\4ai24qpwts-wus95c49fh.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\tmakjty5hc-sjab29p8z5.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\lln3fmaddr-jdpnbaa6vo.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\25kp921rby-59qolqi738.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\cg5tzlfx99-x0q3zqp4vz.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\72vv5d6y6c-fwhahm2icz.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\vgekor5lhr-dd6z7egasc.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\oqbqsvte8t-5pze98is44.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\301b32x8jp-mlv21k5csn.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\723ubx97jb-sypsreuh1s.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\compressed\3kcfdxf8as-sypsreuh1s.gz
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets.development.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssets.props
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.build.WEBPROGM.props
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WEBPROGM.props
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WEBPROGM.props
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets.pack.json
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.Up2Date
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\refint\WEBPROGM.dll
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.pdb
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\WEBPROGM.genruntimeconfig.cache
+E:\general downloads\Telegram Desktop\11111\WEBPROGM\obj\Debug\net9.0\ref\WEBPROGM.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\appsettings.Development.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\appsettings.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.endpoints.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.runtime.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.exe
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.deps.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.runtimeconfig.json
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\WEBPROGM.pdb
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Npgsql.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\prog\KURSACHBACK2\WEBPROGM\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.AssemblyReference.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfoInputs.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfo.cs
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.CoreCompileInputs.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cs
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cs
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\scopedcss\bundle\WEBPROGM.styles.css
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\scopedcss\projectbundle\WEBPROGM.bundle.scp.css
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\n2zqobdxrw-c2tiyv64ts.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\0jg261f082-61n19gt1b8.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\idb885rpqs-6b9nfc4n3r.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\jj7evi18i7-agp80tu62r.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\84xt7847p5-st1cbwfwo5.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\detr0gmeq5-unj9p35syc.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\7mcas7qx6m-5vj65cig9w.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\q0r15q3mjf-q2ku51ktnl.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\0bwawq8czm-2q4vfeazbq.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\b6q537lxz1-n1oizzvkh6.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\5p4jdgqduh-o371a8zbv2.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\a9zmallybv-7na4sro3qu.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\qd1lx3iufb-jeal3x0ldm.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\opiq8q0sol-f8imaxxbri.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\oyerhxagiq-okkk44j0xs.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\du1fl6p20n-0wve5yxp74.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\b74kq17kq5-cwzlr5n8x4.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\f3pznbf9ph-npxfuf8dg6.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\c87esitose-wmug9u23qg.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\by4f3o5p0d-tey0rigmnh.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\6ph5nxsqk8-j75batdsum.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\7cxpiyhddp-16095smhkz.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\14r0zuj2fh-vy0bq9ydhf.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\u8nd7ts68v-b4skse8du6.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\xqy7tnt2cp-ab1c3rmv7g.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\sl6v8syrkw-u3xrusw2ol.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\ch4m1frq4d-56d2bn4wt9.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\ntw0i0cqeo-mpyigms19s.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\jszj62abru-73kdqttayv.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\e9ctezs4bd-bpk8xqwxhs.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\rh8tw3jknv-8inm30yfxf.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\b8kj02nfag-ve6x09088i.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\dsy8azkxq8-4gxs3k148c.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\nd7xws5o9l-9b9oa1qrmt.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\pyuje9ohcw-fctod5rc9n.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\277s73ytjf-l2av4jpuoj.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\xw11k1lmad-kbynt5jhd9.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\0y2opu0lo7-25iw1kog22.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\mwbbqxoi5o-c2nslu3uf3.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\i20le35orj-m39kt2b5c9.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\ub3r352579-2lgwfvgpvi.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\yd0aql6weu-um2aeqy4ik.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\c79cv20c70-wsezl0heh6.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\edt4oeoj4c-o4kw7cc6tf.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\hm91yfbw5p-6ukhryfubh.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\gn7y39u0lp-zwph15dxgs.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\lmhy6i24n3-u33ctipx7g.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\842e1uaki3-47otxtyo56.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\6cy28vj1f3-4v8eqarkd7.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\fy5bdrqmlv-356vix0kms.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\4ai24qpwts-wus95c49fh.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\tmakjty5hc-sjab29p8z5.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\lln3fmaddr-jdpnbaa6vo.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\25kp921rby-59qolqi738.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\cg5tzlfx99-x0q3zqp4vz.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\72vv5d6y6c-fwhahm2icz.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\vgekor5lhr-dd6z7egasc.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\oqbqsvte8t-5pze98is44.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\301b32x8jp-mlv21k5csn.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\723ubx97jb-sypsreuh1s.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\compressed\3kcfdxf8as-sypsreuh1s.gz
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.json
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets.development.json
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssets.props
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.build.WEBPROGM.props
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WEBPROGM.props
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WEBPROGM.props
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets.pack.json
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.Up2Date
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.dll
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\refint\WEBPROGM.dll
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.pdb
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\WEBPROGM.genruntimeconfig.cache
+C:\prog\KURSACHBACK2\WEBPROGM\obj\Debug\net9.0\ref\WEBPROGM.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.AssemblyReference.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfoInputs.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.AssemblyInfo.cs
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.CoreCompileInputs.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cs
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.MvcApplicationPartsAssemblyInfo.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.RazorAssemblyInfo.cs
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.sourcelink.json
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\refint\WEBPROGM.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.pdb
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\appsettings.Development.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.endpoints.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\appsettings.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.staticwebassets.runtime.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.exe
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.deps.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.runtimeconfig.json
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\WEBPROGM.pdb
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Npgsql.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\scopedcss\bundle\WEBPROGM.styles.css
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\scopedcss\projectbundle\WEBPROGM.bundle.scp.css
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\n2zqobdxrw-c2tiyv64ts.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\0jg261f082-61n19gt1b8.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\idb885rpqs-6b9nfc4n3r.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\jj7evi18i7-agp80tu62r.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\84xt7847p5-st1cbwfwo5.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\detr0gmeq5-unj9p35syc.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\7mcas7qx6m-5vj65cig9w.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\q0r15q3mjf-q2ku51ktnl.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\0bwawq8czm-2q4vfeazbq.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\b6q537lxz1-n1oizzvkh6.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\5p4jdgqduh-o371a8zbv2.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\a9zmallybv-7na4sro3qu.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\qd1lx3iufb-jeal3x0ldm.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\opiq8q0sol-f8imaxxbri.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\oyerhxagiq-okkk44j0xs.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\du1fl6p20n-0wve5yxp74.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\b74kq17kq5-cwzlr5n8x4.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\f3pznbf9ph-npxfuf8dg6.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\c87esitose-wmug9u23qg.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\by4f3o5p0d-tey0rigmnh.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\6ph5nxsqk8-j75batdsum.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\7cxpiyhddp-16095smhkz.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\14r0zuj2fh-vy0bq9ydhf.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\u8nd7ts68v-b4skse8du6.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\xqy7tnt2cp-ab1c3rmv7g.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\sl6v8syrkw-u3xrusw2ol.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\ch4m1frq4d-56d2bn4wt9.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\ntw0i0cqeo-mpyigms19s.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\jszj62abru-73kdqttayv.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\e9ctezs4bd-bpk8xqwxhs.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\rh8tw3jknv-8inm30yfxf.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\b8kj02nfag-ve6x09088i.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\dsy8azkxq8-4gxs3k148c.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\nd7xws5o9l-9b9oa1qrmt.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\pyuje9ohcw-fctod5rc9n.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\277s73ytjf-l2av4jpuoj.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\xw11k1lmad-kbynt5jhd9.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\0y2opu0lo7-25iw1kog22.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\mwbbqxoi5o-c2nslu3uf3.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\i20le35orj-m39kt2b5c9.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\ub3r352579-2lgwfvgpvi.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\yd0aql6weu-um2aeqy4ik.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\c79cv20c70-wsezl0heh6.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\edt4oeoj4c-o4kw7cc6tf.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\hm91yfbw5p-6ukhryfubh.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\gn7y39u0lp-zwph15dxgs.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\lmhy6i24n3-u33ctipx7g.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\842e1uaki3-47otxtyo56.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\6cy28vj1f3-4v8eqarkd7.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\fy5bdrqmlv-356vix0kms.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\4ai24qpwts-wus95c49fh.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\tmakjty5hc-sjab29p8z5.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\lln3fmaddr-jdpnbaa6vo.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\25kp921rby-59qolqi738.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\cg5tzlfx99-x0q3zqp4vz.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\72vv5d6y6c-fwhahm2icz.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\vgekor5lhr-dd6z7egasc.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\oqbqsvte8t-5pze98is44.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\301b32x8jp-mlv21k5csn.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\723ubx97jb-sypsreuh1s.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\compressed\3kcfdxf8as-sypsreuh1s.gz
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.json
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets.development.json
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssets.props
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.WEBPROGM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.build.WEBPROGM.props
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WEBPROGM.props
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WEBPROGM.props
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets.pack.json
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.csproj.Up2Date
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\WEBPROGM.genruntimeconfig.cache
+C:\prog\KursachGIT\kursach\WEBPROGM\obj\Debug\net9.0\ref\WEBPROGM.dll
+C:\prog\KursachGIT\kursach\WEBPROGM\bin\Debug\net9.0\Newtonsoft.Json.dll

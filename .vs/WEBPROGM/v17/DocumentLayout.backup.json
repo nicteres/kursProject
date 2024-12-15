@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\prog\\KursachGIT\\kursach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\webprogm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\webprogm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursachgit\\kursach\\webprogm\\webprogm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\webprogm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\\AppData\\Local\\SourceServer\\35d2ed1cad421c74bf2b9503e9a15f08ceca4e2d0eb5e55ee03c73b7c8634f4c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\ExceptionServices\\ExceptionDispatchInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\CartController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\CartController.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\CartController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:05:18.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecommendationController.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\RecommendationController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\RecommendationController.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\RecommendationController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\RecommendationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:07:39.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\OrderController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\OrderController.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\OrderController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\OrderController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:57:57.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\UserController.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\UserController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:57:21.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\ProductController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\ProductController.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Controller\\ProductController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\ProductController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:56:37.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Servises.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Servises.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Models\\Servises.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Servises.cs*",
+              "RelativeToolTip": "WEBPROGM\\Models\\Servises.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:55:35.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Models\\Models.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Models\\Models.cs",
+              "RelativeToolTip": "WEBPROGM\\Models\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:54:10.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\AppDbContext.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\AppDbContext.cs",
+              "RelativeToolTip": "WEBPROGM\\AppDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:38:26.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Program.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Program.cs",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\Program.cs",
+              "RelativeToolTip": "WEBPROGM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:38:26.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\appsettings.json",
+              "RelativeDocumentMoniker": "WEBPROGM\\appsettings.json",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\appsettings.json",
+              "RelativeToolTip": "WEBPROGM\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T17:38:26.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WEBPROGM",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+              "RelativeDocumentMoniker": "WEBPROGM\\WEBPROGM.csproj",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+              "RelativeToolTip": "WEBPROGM\\WEBPROGM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T17:51:38.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExceptionDispatchInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\\AppData\\Local\\SourceServer\\35d2ed1cad421c74bf2b9503e9a15f08ceca4e2d0eb5e55ee03c73b7c8634f4c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\ExceptionServices\\ExceptionDispatchInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\\AppData\\Local\\SourceServer\\35d2ed1cad421c74bf2b9503e9a15f08ceca4e2d0eb5e55ee03c73b7c8634f4c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\ExceptionServices\\ExceptionDispatchInfo.cs",
+              "ToolTip": "C:\\Users\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\\AppData\\Local\\SourceServer\\35d2ed1cad421c74bf2b9503e9a15f08ceca4e2d0eb5e55ee03c73b7c8634f4c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\ExceptionServices\\ExceptionDispatchInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\\AppData\\Local\\SourceServer\\35d2ed1cad421c74bf2b9503e9a15f08ceca4e2d0eb5e55ee03c73b7c8634f4c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\ExceptionServices\\ExceptionDispatchInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:26:44.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WEBPROGM.csproj",
+              "DocumentMoniker": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+              "RelativeDocumentMoniker": "WEBPROGM\\WEBPROGM.csproj",
+              "ToolTip": "C:\\prog\\KursachGIT\\kursach\\WEBPROGM\\WEBPROGM.csproj",
+              "RelativeToolTip": "WEBPROGM\\WEBPROGM.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T17:38:26.006Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
