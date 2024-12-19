@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\prog\\KURSPROJECT\\kursProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\models\\servises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|solutionrelative:webprogm\\controller\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{465E3EA2-C592-40DF-B29D-D6271EC58961}|WEBPROGM\\WEBPROGM.csproj|c:\\prog\\kursproject\\kursproject\\webprogm\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,32 +61,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\OrderController.cs",
-              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\OrderController.cs",
-              "ToolTip": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\OrderController.cs",
-              "RelativeToolTip": "WEBPROGM\\Controller\\OrderController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswDEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T16:57:57.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\UserController.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Controller\\UserController.cs",
@@ -94,8 +73,7 @@
               "RelativeToolTip": "WEBPROGM\\Controller\\UserController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T16:57:21.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T16:57:21.726Z"
             },
             {
               "$type": "Document",
@@ -107,25 +85,24 @@
               "RelativeToolTip": "WEBPROGM\\Controller\\ProductController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAA3wEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T16:56:37.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T16:56:37.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Servises.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Models\\Servises.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Models\\Servises.cs",
               "ToolTip": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Models\\Servises.cs",
               "RelativeToolTip": "WEBPROGM\\Models\\Servises.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADwvzkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T16:55:35.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Models\\Models.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Models\\Models.cs",
@@ -133,18 +110,17 @@
               "RelativeToolTip": "WEBPROGM\\Models\\Models.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T16:54:10.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T16:54:10.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Program.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Program.cs",
               "ToolTip": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Program.cs",
               "RelativeToolTip": "WEBPROGM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T17:38:26.002Z",
               "EditorCaption": ""
@@ -159,12 +135,11 @@
               "RelativeToolTip": "WEBPROGM\\Controller\\CartController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:05:18.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T16:05:18.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\appsettings.json",
               "RelativeDocumentMoniker": "WEBPROGM\\appsettings.json",
@@ -172,12 +147,11 @@
               "RelativeToolTip": "WEBPROGM\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-11T17:38:26.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T17:38:26.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\AppDbContext.cs",
@@ -185,12 +159,11 @@
               "RelativeToolTip": "WEBPROGM\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:38:26.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T17:38:26.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "RecommendationController.cs",
               "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\RecommendationController.cs",
               "RelativeDocumentMoniker": "WEBPROGM\\Controller\\RecommendationController.cs",
@@ -200,6 +173,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T17:07:39.602Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\OrderController.cs",
+              "RelativeDocumentMoniker": "WEBPROGM\\Controller\\OrderController.cs",
+              "ToolTip": "C:\\prog\\KURSPROJECT\\kursProject\\WEBPROGM\\Controller\\OrderController.cs",
+              "RelativeToolTip": "WEBPROGM\\Controller\\OrderController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:57:57.551Z"
             },
             {
               "$type": "Document",
@@ -235,6 +220,14 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T14:26:44.229Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }
