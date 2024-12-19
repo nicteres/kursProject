@@ -1,5 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Reflection.Metadata.Ecma335;
+using System.Text;
+using System.Security.Cryptography;
+using System.Security.Claims;
+using System.Linq;
 
 public interface IProductService
 {
@@ -8,6 +14,12 @@ public interface IProductService
     Task AddAsync(product product);
     Task UpdateAsync(product product);
     Task DeleteAsync(int id);
+}
+
+public interface IMessageBroker
+{
+    void Publish(string topic, string message);
+    void Subscribe(string topic, Action<string> handler);
 }
 
 
@@ -41,29 +53,42 @@ public class RecommendationService : IRecommendationService
     {
         _context = context;
     }
-
     public async Task<IEnumerable<product>> GetRecommendationsAsync(int userId)
     {
+
         var purchasedProducts = await _context.orders
             .Where(o => o.user_id == userId)
             .SelectMany(o => o.product_ids)
             .Distinct()
             .ToListAsync();
 
-        var purchasedCategories = await _context.products
+        
+        var purchasedProductsDetails = await _context.products
             .Where(p => purchasedProducts.Contains(p.product_id))
-            .Select(p => p.category)
-            .Distinct()
             .ToListAsync();
 
-        var recommendations = await _context.products
-            .Where(p => purchasedCategories.Contains(p.category) && !purchasedProducts.Contains(p.product_id))
-            .OrderBy(p => p.price)
-            .ToListAsync();
+        
+        var purchasedCategories = purchasedProductsDetails
+            .SelectMany(p => p.category)
+            .Distinct()
+            .ToList();
+
+       
+        var allProducts = await _context.products.ToListAsync();
+
+        var recommendations = allProducts
+            .Where(p => p.category.Any(c => purchasedCategories.Contains(c))
+                        && !purchasedProducts.Contains(p.product_id)) 
+            .OrderBy(p => p.price) 
+            .ToList();
 
         return recommendations;
     }
 }
+
+
+
+
 
 public class ProductService : IProductService
 {
@@ -109,22 +134,69 @@ public class ProductService : IProductService
 public class UserService : IUserService
 {
     private readonly ApplicationDbContext _dbContext;
+    private readonly IConfiguration _configuration;
+    private static readonly string JwtSecretKey = "pneumonoultramicroscopicsilicovolcanoconiosis";
 
-    public UserService(ApplicationDbContext dbContext)
+
+    public UserService(ApplicationDbContext dbContext, IConfiguration configuration)
     {
         _dbContext = dbContext;
+        _configuration = configuration;
     }
 
     public async Task RegisterUser(user user)
     {
+        user.password = HashPassword(user.password);
         _dbContext.users.Add(user);
         await _dbContext.SaveChangesAsync();
     }
 
     public async Task<user> Authenticate(string login, string password)
     {
-        return await _dbContext.users.FirstOrDefaultAsync(u => u.login == login && u.password == password);
+        var user = await _dbContext.users.FirstOrDefaultAsync(u => u.login == login);
+        if (user != null && VerifyPassword(password, user.password))
+        {
+            user.password = GenerateJwtToken(user);
+            return user;
+        }
+        return null;
     }
+
+    private string HashPassword(string password)
+    {
+        using (var sha256 = SHA256.Create())
+        {
+            var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return Convert.ToBase64String(bytes);
+        }
+    }
+
+    private bool VerifyPassword(string password, string hashedPassword)
+    {
+        return HashPassword(password) == hashedPassword;
+    }
+
+    public string GenerateJwtToken(user user)
+    {
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.UTF8.GetBytes(JwtSecretKey); 
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new[]
+            {
+            new Claim(ClaimTypes.Name, user.login),
+            new Claim(ClaimTypes.NameIdentifier, user.user_id.ToString())
+        }),
+            Expires = DateTime.UtcNow.AddDays(7),
+            SigningCredentials = new SigningCredentials(
+                new SymmetricSecurityKey(key),
+                SecurityAlgorithms.HmacSha256Signature)
+        };
+
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
+    }
+
 
     public async Task AddToCart(int userId, int productId)
     {
@@ -195,10 +267,12 @@ public class UserService : IUserService
 public class OrderService : IOrderService
 {
     private readonly ApplicationDbContext _context;
+    private readonly IMessageBroker _messageBroker;
 
-    public OrderService(ApplicationDbContext context)
+    public OrderService(ApplicationDbContext context, IMessageBroker messageBroker)
     {
         _context = context;
+        _messageBroker = messageBroker;
     }
 
     public async Task CreateOrder(int userId, int[] productIds)
@@ -207,19 +281,19 @@ public class OrderService : IOrderService
         {
             throw new ArgumentException("Product IDs cannot be empty.");
         }
-        
+
         var order = new order
         {
             user_id = userId,
             product_ids = productIds,
             status = "Pending"
-
         };
 
         _context.orders.Add(order);
         await _context.SaveChangesAsync();
-    }
 
+        _messageBroker.Publish("OrderCreated", $"Order {order.order_id} created for User {userId}");
+    }
 
     public async Task<IEnumerable<order>> GetOrdersByUserId(int userId)
     {
@@ -234,6 +308,32 @@ public class OrderService : IOrderService
             order.status = status;
             _context.orders.Update(order);
             await _context.SaveChangesAsync();
+
+            _messageBroker.Publish("OrderStatusUpdated", $"Order {orderId} status updated to {status}");
         }
+    }
+}
+public class SimpleMessageBroker : IMessageBroker
+{
+    private readonly Dictionary<string, List<Action<string>>> _subscribers = new();
+
+    public void Publish(string topic, string message)
+    {
+        if (_subscribers.ContainsKey(topic))
+        {
+            foreach (var handler in _subscribers[topic])
+            {
+                handler(message);
+            }
+        }
+    }
+
+    public void Subscribe(string topic, Action<string> handler)
+    {
+        if (!_subscribers.ContainsKey(topic))
+        {
+            _subscribers[topic] = new List<Action<string>>();
+        }
+        _subscribers[topic].Add(handler);
     }
 }
