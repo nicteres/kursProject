@@ -14,23 +14,17 @@ public class OrderController : ControllerBase
     }
 
     [HttpPost("{userId}")]
-    public async Task<IActionResult> CreateOrder( int userId, [FromBody] int[] productIds)
+    public async Task<IActionResult> CreateOrder(int userId, [FromBody] int[] productIds)
     {
         if (productIds == null || productIds.Length == 0)
         {
             return BadRequest("Product IDs cannot be empty.");
         }
-        
-        try
-        {
-            await _orderService.CreateOrder(userId, productIds);
-            return Ok(new { message = "Order created successfully." });
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"Error creating order: {ex.Message}");
-            return StatusCode(500, "An error occurred while creating the order.");
-        }
+
+
+        await _orderService.CreateOrder(userId, productIds);
+        return Ok(new { message = "Order created successfully." });
+
     }
 
 

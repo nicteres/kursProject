@@ -34,7 +34,9 @@ public class ProductController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         var products = await _productService.GetAllAsync();
-        return Ok(products);
+        List<product> finalProducts = new List<product>();
+        finalProducts = products.ToList();
+        return Ok(finalProducts);
     }
 
     [HttpGet("{id}")]

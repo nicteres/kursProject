@@ -12,9 +12,9 @@ public class CartController : ControllerBase
     }
 
     [HttpPost("{userId}/add/{productId}")]
-    public async Task<IActionResult> AddToCart(int userId, int productId)
+    public IActionResult AddToCart(int userId, int productId)
     {
-        await _userService.AddToCart(userId, productId);
+        _userService.AddToCart(userId, productId);
         return Ok("Product added to cart.");
     }
 
@@ -22,19 +22,26 @@ public class CartController : ControllerBase
     public async Task<IActionResult> GetCart(int userId)
     {
         var cart = await _userService.GetCart(userId);
-        return Ok(cart);
-    }
-    [HttpGet("{userId}/ids")]
-    public async Task<IActionResult> GetCartIds(int userId)
-    {
-        var cart = await _userService.GetCartIds(userId);
+        if (cart == null || !cart.Any())
+            return NotFound("Cart is empty or user does not exist.");
+
         return Ok(cart);
     }
 
-    [HttpDelete("{userId}/clear")]
-    public async Task<IActionResult> ClearCart(int userId)
+    [HttpGet("{userId}/ids")]
+    public async Task<IActionResult> GetCartIds(int userId)
     {
-        await _userService.ClearCart(userId);
+        var cartIds = await _userService.GetCartIds(userId);
+        if (cartIds == null || !cartIds.Any())
+            return NotFound("Cart IDs are empty or user does not exist.");
+
+        return Ok(cartIds);
+    }
+
+    [HttpDelete("{userId}/clear")]
+    public IActionResult ClearCart(int userId)
+    {
+        _userService.ClearCart(userId);
         return Ok("Cart cleared.");
     }
 }

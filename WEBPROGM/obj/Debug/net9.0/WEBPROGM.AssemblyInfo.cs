@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEBPROGM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57b34e601ca15fc5dc5e7cd7eb468604abd9a017")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f485c60e5bcaf6aae5416720c524b1348d6a533f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEBPROGM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEBPROGM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

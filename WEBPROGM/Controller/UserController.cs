@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -13,18 +12,21 @@ public class UserController : ControllerBase
     }
 
     [HttpPost("register")]
-    public async Task<IActionResult> Register(user user)
+    public IActionResult Register(user user)
     {
-        await _userService.RegisterUser(user);
-        return Ok();
+
+        _userService.RegisterUser(user);
+        return Ok("User registration initiated.");
     }
 
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] user user)
     {
+
         var authenticatedUser = await _userService.Authenticate(user.login, user.password);
-        if (authenticatedUser == null) return Unauthorized();
+        if (authenticatedUser == null)
+            return Unauthorized("Invalid login or password.");
+
         return Ok(authenticatedUser);
     }
-
 }
