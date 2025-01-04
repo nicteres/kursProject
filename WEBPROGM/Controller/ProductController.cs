@@ -12,11 +12,11 @@ public class ProductController : ControllerBase
         _productService = productService;
     }
     [HttpGet("Categories/{category}")]
-    public async Task<ActionResult<IEnumerable<product>>> GetItemsByCategory(string category)
+    public async Task<ActionResult<IEnumerable<Product>>> GetItemsByCategory(string category)
     {
         var products = await _productService.GetAllAsync();
 
-        List<product> categoryProducts = new List<product>();
+        List<Product> categoryProducts = new List<Product>();
         foreach (var item in products)
         {
             List<string> categories = new List<string>();
@@ -34,7 +34,7 @@ public class ProductController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         var products = await _productService.GetAllAsync();
-        List<product> finalProducts = new List<product>();
+        List<Product> finalProducts = new List<Product>();
         finalProducts = products.ToList();
         return Ok(finalProducts);
     }
@@ -48,7 +48,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Add(product product)
+    public async Task<IActionResult> Add(Product product)
     {
 
         await _productService.AddAsync(product);
@@ -56,7 +56,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> Update(product product)
+    public async Task<IActionResult> Update(Product product)
     {
         await _productService.UpdateAsync(product);
         return NoContent();

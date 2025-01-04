@@ -203,17 +203,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/order_status"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/order_status"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/order_status"
               }
             }
           }
@@ -248,7 +248,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/product"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               },
@@ -256,7 +256,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/product"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               },
@@ -264,7 +264,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/product"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               }
@@ -292,17 +292,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             }
           }
@@ -321,17 +321,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/product"
+                "$ref": "#/components/schemas/Product"
               }
             }
           }
@@ -419,17 +419,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             }
           }
@@ -450,17 +450,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/user"
+                "$ref": "#/components/schemas/User"
               }
             }
           }
@@ -475,7 +475,7 @@
   },
   "components": {
     "schemas": {
-      "product": {
+      "Product": {
         "type": "object",
         "properties": {
           "product_id": {
@@ -504,7 +504,7 @@
         },
         "additionalProperties": false
       },
-      "user": {
+      "User": {
         "type": "object",
         "properties": {
           "user_id": {
@@ -521,6 +521,16 @@
           }
         },
         "additionalProperties": false
+      },
+      "order_status": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
       }
     }
   }

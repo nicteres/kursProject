@@ -15,7 +15,8 @@ public class DatabaseHandler : IHostedService
 
     public DatabaseHandler(IServiceProvider serviceProvider, IMessageBroker messageBroker)
     {
-        this.serviceProvider = serviceProvider;
+        this.serviceProvider = serviceProvider ?? throw new ArgumentNullException(nameof(serviceProvider));
+
         _messageBroker = messageBroker;
       
     }
@@ -59,10 +60,17 @@ public class DatabaseHandler : IHostedService
         using var scope = serviceProvider.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
-        var user = JsonConvert.DeserializeObject<user>(message);
-        dbContext.users.Add(user);
-        dbContext.SaveChanges();
-        _messageBroker.Publish("AddUserResponse", $"User {user.login} added successfully.");
+        var user = JsonConvert.DeserializeObject<User>(message);
+        if (user != null)
+        {
+            dbContext.users.Add(user);
+            dbContext.SaveChanges();
+            _messageBroker.Publish("AddUserResponse", $"User {user.login} added successfully.");
+        }
+        else
+        {
+            _messageBroker.Publish("AddUserResponse", $"User cannot be null");
+        }
     }
 
     public void HandleAuthenticateUser(string message)
@@ -88,7 +96,7 @@ public class DatabaseHandler : IHostedService
         else
         {
 
-            _messageBroker.Publish($"AuthenticateUserResponse_{credentials.Login}", null);
+            _messageBroker.Publish($"AuthenticateUserResponse_{credentials.Login}", "unable to authenticate");
         }
     }
 
@@ -122,7 +130,7 @@ public class DatabaseHandler : IHostedService
         var cart = dbContext.carts.FirstOrDefault(c => c.user_id == request.UserId);
         if (cart == null)
         {
-            cart = new cart { user_id = request.UserId, product_ids = new int[] { request.ProductId } };
+            cart = new Cart { user_id = request.UserId, product_ids = new int[] { request.ProductId } };
             dbContext.carts.Add(cart);
         }
         else
@@ -151,7 +159,7 @@ public class DatabaseHandler : IHostedService
     }
 
 
-    private string GenerateJwtToken(user user)
+    private string GenerateJwtToken(User user)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.UTF8.GetBytes("pneumonoultramicroscopicsilicovolcanoconiosis");
@@ -188,41 +196,39 @@ public class DatabaseHandler : IHostedService
         return Task.CompletedTask;
     }
 
-    private class AddToCartRequest
-    {
-        public int UserId { get; set; }
-        public int ProductId { get; set; }
-    }
-    private class OrderRequest
-    {
-        public int UserId { get; set; }
-        public int[] ProductIds { get; set; }
-    }
+
     public async void HandleCreateOrder(string message)
     {
-        OrderRequest orderRequest = JsonConvert.DeserializeObject<OrderRequest>(message);
+        OrderRequest orderRequest = JsonConvert.DeserializeObject<OrderRequest>(message)!;
         Console.WriteLine(orderRequest);
         
         using var scope = serviceProvider.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        if (orderRequest != null)
         {
-
-            if (orderRequest.ProductIds == null || orderRequest.ProductIds.Length == 0)
             {
-                throw new ArgumentException("Product IDs cannot be empty.");
+
+                if (orderRequest.ProductIds == null || orderRequest.ProductIds.Length == 0)
+                {
+                    throw new ArgumentException("Product IDs cannot be empty.");
+                }
+
+                var order = new Order
+                {
+                    user_id = orderRequest.UserId,
+                    product_ids = orderRequest.ProductIds,
+                    status = order_status.ordered
+                };
+
+                dbContext.orders.Add(order);
+                await dbContext.SaveChangesAsync();
+
+                _messageBroker.Publish($"CreateOrderResponse_{orderRequest.UserId}", "Success");
             }
-
-            var order = new order
-            {
-                user_id = orderRequest.UserId,
-                product_ids = orderRequest.ProductIds,
-                status = "Pending"
-            };
-
-            dbContext.orders.Add(order);
-            await dbContext.SaveChangesAsync();
-
-            _messageBroker.Publish($"CreateOrderResponse_{orderRequest.UserId}", "Success");
+        }
+        else
+        {
+            _messageBroker.Publish($"CreateOrderResponse_", "Deny");
         }
     }
 
@@ -236,31 +242,35 @@ public class DatabaseHandler : IHostedService
     var orders = dbContext.orders.Where(o => o.user_id == userId).ToList();
     _messageBroker.Publish($"GetOrdersByUserIdResponse_{userId}", JsonConvert.SerializeObject(orders));
 }
-    private class OrderStatusRequest
-    {
-        public int OrderId { get; set; }
-        public string Status { get; set; }
-    }
+
     public void HandleUpdateOrderStatus(string message)
 {
     var updateRequest = JsonConvert.DeserializeObject<OrderStatusRequest>(message);
 
     using var scope = serviceProvider.CreateScope();
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        if (updateRequest != null)
+        {
 
-    var order = dbContext.orders.FirstOrDefault(o => o.order_id == updateRequest.OrderId);
-    if (order != null)
-    {
-        order.status = updateRequest.Status;
-        dbContext.orders.Update(order);
-        dbContext.SaveChanges();
+            var order = dbContext.orders.FirstOrDefault(o => o.order_id == updateRequest.OrderId);
+            if (order != null)
+            {
+                if(updateRequest.Status>order.status)
+                order.status = updateRequest.Status;
+                dbContext.orders.Update(order);
+                dbContext.SaveChanges();
 
-        _messageBroker.Publish($"UpdateOrderStatusResponse_{updateRequest.OrderId}", "Success");
-    }
-    else
-    {
-        _messageBroker.Publish($"UpdateOrderStatusResponse_{updateRequest.OrderId}", "Failure");
-    }
+                _messageBroker.Publish($"UpdateOrderStatusResponse_{updateRequest.OrderId}", "Success");
+            }
+            else
+            {
+                _messageBroker.Publish($"UpdateOrderStatusResponse_{updateRequest.OrderId}", "Failure");
+            }
+        }
+        else
+        {
+            _messageBroker.Publish($"UpdateOrderStatusResponse_", "deny");
+        }
 }
     private void HandleGetAllProducts(string message)
     {
@@ -284,28 +294,41 @@ public class DatabaseHandler : IHostedService
 
     private void HandleAddProduct(string message)
     {
-        var product = JsonConvert.DeserializeObject<product>(message);
+        var product = JsonConvert.DeserializeObject<Product>(message);
 
         using var scope = serviceProvider.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        if (product != null)
+        {
+            dbContext.products.Add(product);
+            dbContext.SaveChanges();
 
-        dbContext.products.Add(product);
-        dbContext.SaveChanges();
-
-        _messageBroker.Publish("AddProductResponse", "Success");
+            _messageBroker.Publish("AddProductResponse", "Success");
+        }
+        else
+        {
+            _messageBroker.Publish("AddProductResponse", "Product cant be null");
+        }
     }
 
     private void HandleUpdateProduct(string message)
     {
-        var product = JsonConvert.DeserializeObject<product>(message);
+        var product = JsonConvert.DeserializeObject<Product>(message);
 
         using var scope = serviceProvider.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        if (product != null)
+        {
 
-        dbContext.products.Update(product);
-        dbContext.SaveChanges();
+            dbContext.products.Update(product);
+            dbContext.SaveChanges();
 
-        _messageBroker.Publish("UpdateProductResponse", "Success");
+            _messageBroker.Publish("UpdateProductResponse", "Success");
+        }
+        else
+        {
+            _messageBroker.Publish("AddProductResponse", "Product cannot be null");
+        }
     }
 
     private void HandleDeleteProduct(string message)

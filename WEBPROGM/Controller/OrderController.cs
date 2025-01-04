@@ -36,7 +36,7 @@ public class OrderController : ControllerBase
     }
 
     [HttpPut("{orderId}/status")]
-    public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] string status)
+    public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] order_status status)
     {
         await _orderService.UpdateOrderStatus(orderId, status);
         return NoContent();

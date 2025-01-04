@@ -146,7 +146,7 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "product",
+        "Type": "Product",
         "IsRequired": true
       }
     ],
@@ -162,7 +162,7 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "product",
+        "Type": "Product",
         "IsRequired": true
       }
     ],
@@ -216,7 +216,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[product, WEBPROGM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Product, WEBPROGM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -252,7 +252,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "user",
+        "Type": "User",
         "IsRequired": true
       }
     ],
@@ -268,7 +268,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "user",
+        "Type": "User",
         "IsRequired": true
       }
     ],

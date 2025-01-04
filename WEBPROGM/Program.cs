@@ -3,12 +3,22 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-
+using Npgsql;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+builder.Logging.AddEventSourceLogger();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), npgsqlOptions =>
+    {
+        npgsqlOptions.MapEnum<order_status>("order_status");
+    });
+});
 builder.Services.AddControllers();
 builder.Services.AddHostedService<DatabaseHandler>();
 builder.Services.AddTransient<IProductService, ProductService>();
@@ -30,8 +40,9 @@ builder.Services.AddCors(options =>
                  .AllowAnyMethod();
       });
 });
+
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]);
+var key = Encoding.UTF8.GetBytes(jwtSettings["Key"] ?? string.Empty);
 
 builder.Services.AddAuthentication(options =>
 {
@@ -61,13 +72,12 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "VR Shop API V1");
 });
 
+app.UseRouting(); 
 app.UseAuthentication();
-app.UseAuthorization();
-app.UseRouting();
+app.UseAuthorization(); 
+
 app.UseCors("AllowSpecificOrigin");
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
+
+app.MapControllers(); 
 
 app.Run();

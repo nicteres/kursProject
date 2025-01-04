@@ -4,26 +4,28 @@ public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-    public DbSet<product> products { get; set; }
-    public DbSet<user> users { get; set; }
-    public DbSet<cart> carts { get; set; }
-    public DbSet<order> orders { get; set; }
+    public DbSet<Product> products { get; set; }
+    public DbSet<User> users { get; set; }
+    public DbSet<Cart> carts { get; set; }
+    public DbSet<Order> orders { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
    
-        modelBuilder.Entity<cart>()
+        modelBuilder.Entity<Cart>()
             .HasKey(c => c.cart_id);
 
    
-        modelBuilder.Entity<order>()
+        modelBuilder.Entity<Order>()
             .HasKey(o => o.order_id);
 
     
-        modelBuilder.Entity<product>()
+        modelBuilder.Entity<Product>()
             .HasKey(p => p.product_id);
 
-        modelBuilder.Entity<user>()
+        modelBuilder.Entity<User>()
             .HasKey(u => u.user_id);
+
+        modelBuilder.HasPostgresEnum<order_status>("order_status");
     }
 }
 

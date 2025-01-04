@@ -12,7 +12,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost("register")]
-    public IActionResult Register(user user)
+    public IActionResult Register(User user)
     {
 
         _userService.RegisterUser(user);
@@ -20,7 +20,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] user user)
+    public async Task<IActionResult> Login([FromBody] User user)
     {
 
         var authenticatedUser = await _userService.Authenticate(user.login, user.password);
